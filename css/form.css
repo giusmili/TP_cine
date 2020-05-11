@@ -1,0 +1,56 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font: 1.6rem sans-serif;
+    
+}
+h1,
+h2,
+h3{
+    font-weight: 100;
+    text-align: center;
+}
+button{
+    border:0;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.btn{
+    width: 20rem;
+    line-height: 3.0rem;
+    display: block;
+    margin:10px auto;
+    background: #0c80d3 none repeat scroll;
+    color: #fafafa;
+    padding:10px 0;
+    font-size: 2rem;
+    border-radius: 0.4rem;
+}
+section{
+    display: none;
+    max-width: 60rem;
+    margin:0 auto;
+    text-align: center;
+}
+.form{
+    max-width: 60rem;
+    margin:10px auto;
+    padding: 10px;
+}
+input{
+    display: block;
+    width: 100%;
+    border: solid 1px transparent;
+    border-bottom-color: #ccc;
+    line-height: 4.0rem;
+    padding:0.5rem;
+    margin-bottom: 0.5rem;
+}
+input[type="submit"]{
+    border:0;
+}

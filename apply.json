@@ -1,0 +1,22 @@
+{
+   
+    "commandes" :[
+        {
+            "titre" : "Nouveau",
+            "action" : "CreateDoc"
+        },
+        {
+            "titre" : "Ancian",
+            "action" : "openDoc"
+        },
+        {
+            "titre" : "Fermer",
+            "action" : "Archive"
+        },
+        {
+            "titre" : "Enregistrer",
+            "action" : "chargement  "
+        }
+    ]
+
+}

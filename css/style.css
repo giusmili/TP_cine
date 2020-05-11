@@ -1,0 +1,146 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+}
+h1,h2,h3,p,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: 100;
+}
+*{
+    box-sizing: border-box; /* http://www.sharemycode.fr/fvo */
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+button{
+    background: none;
+    border: none;
+}
+/* theme */
+
+header h1{
+    line-height: 6.5rem;
+    text-align:  center;
+    color: #222;
+}
+main ul{
+    max-width: 40rem;
+    line-height: 4.5rem;
+    margin: 1.0rem auto;
+}
+main ul li{
+    padding: 0.5rem;
+    background-color: #fafafa;
+}
+main ul li:nth-child(2n + 1){
+    background-color: #222;
+    color: #fff;
+}
+main p{
+    text-align:  center;
+    font-size: 3.5rem;
+}
+.color-default{
+    color: #ccc;
+}
+/* theme boutons */
+.btn-default{
+    display: block;
+    line-height: 2.5rem;
+    padding: 1.0rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    background-color: #ccc;
+    max-width: 20rem;
+    margin: 0 auto;
+    transition-duration: 0.9s;
+}
+.btn-alert{
+    background-color: rgba(200,0,0,1);
+    color: #fff;
+}
+main section{
+    max-width: 40rem;
+    padding: 1.0rem;
+    background-color: #fafafa;
+    margin: 1.0rem auto;
+    transform: translateX(-100rem);
+    transition-duration: 0.5s;
+}
+
+/* faire revenir le block */
+main .slider{
+    transform: translateX(0);
+}
+
+main section p{
+    font-size: initial;
+    text-align: left;
+    line-height: 2.5rem;
+}
+main section h1{
+    padding: 0.5rem;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+.section img{
+    display: block;
+    width: 100%;
+   
+}
+.night{
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+}
+.lights{
+    filter: grayscale(0); 
+}
+.section{
+    max-width: 20rem;
+    margin: 0 auto;
+}
+main button{
+  border: solid 0.1rem transparent;
+  width: 100%;/* inline-block px, %, rem, vw */
+  line-height: 3.5rem;
+  font-size: inherit;
+  background-color: rgba(200,0,0,1);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 0.5rem #222;
+
+ }
+.main-primary{
+    max-width: 70rem;/* max-width, width, min-width */
+    margin: 0 auto;
+    border: solid 0.1rem #ccc;
+    padding: 1.0rem;
+    background-color: #fafafa;
+}
+.main-primary p{
+    font-size: inherit;
+    text-align: left;
+    line-height: 2.5rem;
+}
+div .msg{
+    color: #222;
+    font-size: inherit;
+    max-width: 40rem;
+    margin: 0 auto 1.0rem;
+    text-align: left;
+}
+.commentaires{
+    text-align: center;
+    color: rgb(200,0,0);
+}
+main ul li:nth-child(2n + 1) > a{
+    
+    color: #fff;
+}

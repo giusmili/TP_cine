@@ -1,0 +1,22 @@
+{
+   "eleves":[
+      {
+         "nom":"Marc",
+         
+         "moyenne":5,
+         "email":"marco@gmail.com"
+      },
+      {
+         "nom":"Joe",
+        
+         "moyenne":20,
+         "email":"joe@gmail.com"
+      },
+      {
+         "nom":"Caroline",
+         
+         "moyenne":12,
+         "email":"caro@gmail.com"
+      }
+   ]
+}

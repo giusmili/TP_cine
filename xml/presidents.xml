@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--http://www.sharemycode.fr/q3u-->
+<root>
+    <president>
+        <nom></nom>
+        <mandat></mandat>
+        <naissance></naissance>
+        <deces></deces>
+    </president>
+    <president>
+        <nom></nom>
+        <mandat></mandat>
+        <naissance></naissance>
+        <deces></deces>
+    </president>
+    <president>
+        <nom></nom>
+        <mandat></mandat>
+        <naissance></naissance>
+        <deces></deces>
+    </president>  
+</root>
